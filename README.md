@@ -1,0 +1,3 @@
+# Unhandled Exception in Asynchronous Dart Code
+
+This repository demonstrates a common error in Dart programming: unhandled exceptions in asynchronous operations.  The `bug.dart` file contains code that simulates a network request that might fail.  The code attempts to handle exceptions but misses a critical scenario. This leads to unexpected behavior and potential crashes. The solution demonstrates how to catch all potential exceptions using a comprehensive `try-catch` block, including a catch-all clause to handle any unexpected errors, ensuring robust error handling and preventing program crashes.
